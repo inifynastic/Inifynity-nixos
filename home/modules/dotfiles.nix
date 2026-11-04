@@ -63,6 +63,11 @@
 			force = true;
 			recursive = true;
 		};
+		"emacs"={
+			source = ../dotfiles/emacs;
+			force =true;
+			recursive = true;
+		};
 	};
 
   xdg.dataFile."resources" = {
