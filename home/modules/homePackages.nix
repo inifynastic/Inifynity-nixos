@@ -58,6 +58,7 @@
 	brightnessctl
 	wlogout
 	quickshell
+	tree
 	
 	#Icon themes
 	papirus-icon-theme
