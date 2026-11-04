@@ -57,6 +57,7 @@
 	wev
 	brightnessctl
 	wlogout
+	quickshell
 	
 	#Icon themes
 	papirus-icon-theme
