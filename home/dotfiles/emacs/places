@@ -1,0 +1,47 @@
+;;; -*- coding: utf-8; mode: lisp-data -*-
+(("/home/inifynastic/Documents/development-zone/flutter-project/inifynity_piano/"
+  (dired-filename
+   . "/home/inifynastic/Documents/development-zone/flutter-project/inifynity_piano/pubspec.lock"))
+ ("/home/inifynastic/Documents/development-zone/flutter-project/inifynity_piano/linux/flutter/generated_plugin_registrant.cc"
+  . 162)
+ ("/home/inifynastic/Documents/" (dired-filename . "/home/inifynastic/Documents/random.txt"))
+ ("/home/inifynastic/Documents/development-zone/windows-stuff/Inifynity-Macro/engine/handlehotkey.c"
+  . 1040)
+ ("/home/inifynastic/Documents/development-zone/flutter-project/"
+  (dired-filename . "/home/inifynastic/Documents/development-zone/flutter-project/inifynity_piano"))
+ ("/home/inifynastic/Documents/development-zone/flutter-project/inifynity_piano/.gitignore" . 125)
+ ("/home/inifynastic/Documents/development-zone/flutter-project/inifynity_piano/lib/main.dart" . 162)
+ ("/home/inifynastic/Documents/development-zone/flutter-project/inifynity_piano/lib/graphics/mainscreen.dart"
+  . 357)
+ ("/home/inifynastic/Documents/development-zone/flutter-project/inifynity_piano/lib/graphics/modules/piano.dart"
+  . 38)
+ ("/home/inifynastic/Documents/development-zone/flutter-project/inifynity_piano/lib/graphics/modules/musis_display.dart"
+  . 222)
+ ("/home/inifynastic/Documents/development-zone/flutter-project/inifynity_piano/lib/graphics/modules/controller.dart"
+  . 41)
+ ("/home/inifynastic/Documents/work/main.py" . 296)
+ ("/home/inifynastic/Documents/work/main2.py" . 858)
+ ("/home/inifynastic/Documents/Kollege-Stuff/programming/condition-qp/Q1.py" . 822)
+ ("/home/inifynastic/Documents/Kollege-Stuff/programming/condition-qp/Q3.py" . 304)
+ ("/home/inifynastic/Documents/Kollege-Stuff/programming/condition-qp/Q4.py" . 535)
+ ("/home/inifynastic/Documents/Kollege-Stuff/programming/condition-qp/Q5.py" . 612)
+ ("/home/inifynastic/Documents/Kollege-Stuff/programming/condition-qp/Q6.py" . 403)
+ ("/home/inifynastic/.config/emacs/.cache/treemacs-persist" . 102)
+ ("/home/inifynastic/Documents/development-zone/flutter-project/inifynity_piano/lib/services/"
+  (dired-filename
+   . "/home/inifynastic/Documents/development-zone/flutter-project/inifynity_piano/lib/services/pianocore.dart"))
+ ("/home/inifynastic/Documents/development-zone/flutter-project/inifynity_piano/core/cppcore/"
+  (dired-filename
+   . "/home/inifynastic/Documents/development-zone/flutter-project/inifynity_piano/core/cppcore/CMakeLists.txt"))
+ ("/home/inifynastic/Documents/development-zone/flutter-project/inifynity_piano/lib/graphics/modules/"
+  (dired-filename
+   . "/home/inifynastic/Documents/development-zone/flutter-project/inifynity_piano/lib/graphics/modules/modules.dart"))
+ ("/home/inifynastic/Documents/development-zone/flutter-project/inifynity_piano/lib/graphics/"
+  (dired-filename
+   . "/home/inifynastic/Documents/development-zone/flutter-project/inifynity_piano/lib/graphics/mainscreen.dart"))
+ ("/home/inifynastic/Documents/development-zone/flutter-project/inifynity_piano/lib/"
+  (dired-filename
+   . "/home/inifynastic/Documents/development-zone/flutter-project/inifynity_piano/lib/graphics"))
+ ("/home/inifynastic/Documents/development-zone/flutter-project/inifynity_piano/ios/"
+  (dired-filename
+   . "/home/inifynastic/Documents/development-zone/flutter-project/inifynity_piano/ios/Flutter")))

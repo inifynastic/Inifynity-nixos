@@ -1,0 +1,331 @@
+;; -*- mode: emacs-lisp; lexical-binding:t; coding: utf-8-emacs; -*-
+;; --------------------------------------------------------------------------
+;; Desktop File for Emacs
+;; --------------------------------------------------------------------------
+;; Created Tue Nov  3 15:02:32 2026
+;; Desktop file format version 208
+;; Emacs version 30.2
+
+;; Global section:
+(setq desktop-saved-frameset [frameset 1 (27369 42668 813157 981000) (desktop . "208") "inifynastic@NixOS" nil nil ((((minibuffer . t) (undecorated) (override-redirect) (font . "-PfEd-DejaVu Sans Mono-regular-normal-normal-*-13-*-*-*-m-0-iso10646-1") (border-width . 0) (internal-border-width . 0) (child-frame-border-width) (right-divider-width . 0) (bottom-divider-width . 0) (vertical-scroll-bars) (horizontal-scroll-bars) (foreground-color . "#ffffff") (background-color . "#000000") (mouse-color . "black") (border-color . "black") (screen-gamma) (line-spacing) (left-fringe . 8) (right-fringe . 8) (no-special-glyphs) (scroll-bar-foreground . "#646464") (scroll-bar-background . "#1e1e1e") (menu-bar-lines . 1) (tab-bar-lines . 0) (tool-bar-lines . 0) (title) (wait-for-wm . t) (tool-bar-position . top) (inhibit-double-buffering) (icon-type . t) (auto-raise) (auto-lower) (cursor-type . box) (scroll-bar-width . 16) (scroll-bar-height . 16) (alpha) (alpha-background) (no-focus-on-map) (no-accept-focus) (fullscreen . fullheight) (visibility . t) (skip-taskbar) (z-group) (display-type . color) (background-mode . dark) (cursor-color . "#ffffff") (font-parameter) (sticky) (environment) (last-focus-update . t) (frameset--id . "DF96-18BF-3F00-3B66") (frameset--mini t . t) (modeline . t) (unsplittable) (icon-name) (display . "wayland-1") (explicit-name) (user-size . t) (tabs (current-tab (name . "Q6.py") (explicit-name))) (height . 45) (width . 183) (left . 0) (top . 0)) ((min-height . 4) (min-width . 10) (min-height-ignore . 3) (min-width-ignore . 4) (min-height-safe . 1) (min-width-safe . 2) (min-pixel-height . 68) (min-pixel-width . 80) (min-pixel-height-ignore . 51) (min-pixel-width-ignore . 32) (min-pixel-height-safe . 17) (min-pixel-width-safe . 16)) leaf (pixel-width . 1486) (pixel-height . 751) (total-width . 186) (total-height . 44) (normal-height . 1.0) (normal-width . 1.0) (buffer "Q6.py" (selected . t) (hscroll . 0) (fringes 8 8 nil nil) (margins nil) (scroll-bars nil 0 t nil 0 t nil) (vscroll . 0) (dedicated) (point . 403) (start . 1)) (prev-buffers ("Q5.py" 1 612) ("Q4.py" 1 535) ("Q3.py" 1 304) ("Q1.py" 1 822) ("main2.py" 1 858) ("Icon-maskable-512.png" 1 1) ("favicon.png" 1 1) ("generated_plugin_registrant.h" 1 1) ("inifynity_piano" 1 1175) ("generated_plugin_registrant.cc" 1 162) ("Documents" 1 701) ("enginelogs.h" 1 1) ("handlehotkey.h" 1 1) ("handlehotkey.c" 1 1040) ("flutter-project" 1 240) (".gitignore" 1 125) ("Icon-192.png" 1 1) ("Icon-512.png" 1 1) ("pianocore.dart" 1 1) ("main.dart" 1 162) ("mainscreen.dart" 1 357) ("piano.dart" 1 38) ("musis_display.dart" 1 222) ("controller.dart" 1 41) ("*scratch*" 1 1))))])
+(setq desktop-missing-file-warning nil)
+(setq tags-file-name nil)
+(setq tags-table-list nil)
+(setq search-ring nil)
+(setq regexp-search-ring nil)
+(setq register-alist '((48 . #("discount = amount * 0.05\n        amount = amount - (discount)\n" 0 8 (face font-lock-variable-name-face fontified t) 8 9 (fontified t) 9 10 (face font-lock-operator-face fontified t) 10 18 (fontified t) 18 19 (face font-lock-operator-face fontified t) 19 24 (fontified t) 24 25 (fontified t) 25 33 (fontified t) 33 39 (face font-lock-variable-name-face fontified t) 39 40 (fontified t) 40 41 (face font-lock-operator-face fontified t) 41 42 (fontified t) 42 48 (fontified t) 48 49 (fontified t) 49 50 (face font-lock-operator-face fontified t) 50 51 (fontified t) 51 52 (face (rainbow-delimiters-depth-1-face) fontified t) 52 60 (fontified t) 60 61 (face (rainbow-delimiters-depth-1-face) fontified t) 61 62 (fontified t)))))
+(setq file-name-history '("~/Documents/Kollege-Stuff/programming/condition-qp/Q6.py" "~/Documents/Kollege-Stuff/programming/condition-qp/Q5.py" "~/Documents/Kollege-Stuff/programming/condition-qp/Q4.py" "~/Documents/Kollege-Stuff/programming/condition-qp/Q3.py" "~/Documents/Kollege-Stuff/programming/condition-qp/Q4.py" "~/Documents/Kollege-Stuff/programming/condition-qp/Q3.py" "~/Documents/Kollege-Stuff/programming/condition-qp/Q1.py" "~/Documents/work/main2.py" "~/Documents/work/main.py" "~/Documents/Kollege-Stuff/programming/main.py" "~/Documents/work/main.py" "~/Documents/development-zone/flutter-project/inifynity_piano/core/dartcore/pianocore.dart" "~/Documents/development-zone/flutter-project/inifynity_piano/engine/cppcore" "~/Documents/development-zone/flutter-project/inifynity_piano/engine/dartcore" "~/Documents/Kollege-Stuff/programming/main.py" "/home/inifynastic/Documents/development-zone/flutter-project/inifynity_piano/lib/graphics/modules/musicDisplay.dart" "/home/inifynastic/Documents/development-zone/flutter-project/inifynity_piano/lib/graphics/modules/piano.dart" "/home/inifynastic/Documents/development-zone/flutter-project/inifynity_piano/lib/graphics/modules" "~/Documents/development-zone/this.cpp" "/home/inifynastic/Documents/development-zone/windows-stuff/Inifynity-Macro" "~/Documents/development-zone/flutter-project/inifynity_piano/lib/graphics/containers.dart" "~/Documents/development-zone/flutter-project/inifynity_piano/lib/graphics/mainscreen.dart" "~/Documents/development-zone/flutter-project/inifynity_piano/lib/services" "~/Documents/development-zone/flutter-project/inifynity_piano/lib/graphics" "~/Documents/development-zone/flutter-project/inifynity_piano/" "~/Documents/development-zone/flutter-project/inifynity_piano/lib/main.dart" "~/Documents/development-zone/flutter-project/Inifynity-Piano/" "~/Documents/development-zone/flutter-project/Inifynity-Piano/lib/main.dart" "~/Documents/development-zone/flutter-project/main.dart" "~/Documents/development-zone/flutter-project/" "~/Documents/"))
+
+;; Buffer section -- buffers listed in same order as in buffer list:
+(desktop-create-buffer 208
+  "/home/inifynastic/Documents/Kollege-Stuff/programming/condition-qp/Q6.py"
+  "Q6.py"
+  'python-mode
+  '(eldoc-mode flymake-mode eglot--managed-mode font-lock-mode evil-local-mode corfu-mode display-line-numbers-mode display-fill-column-indicator-mode rainbow-delimiters-mode)
+  403
+  '(512 nil)
+  nil
+  nil
+  '((tab-width . 8) (indent-tabs-mode) (buffer-display-time 27369 42667 859712 257000) (buffer-file-coding-system . utf-8-unix) (overwrite-mode))
+  '((mark-ring (1 73 327))))
+
+(desktop-create-buffer 208
+  "/home/inifynastic/Documents/Kollege-Stuff/programming/condition-qp/Q5.py"
+  "Q5.py"
+  'python-mode
+  '(eldoc-mode flymake-mode eglot--managed-mode rainbow-delimiters-mode display-fill-column-indicator-mode display-line-numbers-mode corfu-mode evil-local-mode font-lock-mode)
+  612
+  '(405 nil)
+  nil
+  nil
+  '((tab-width . 8) (indent-tabs-mode) (buffer-display-time 27369 41516 422838 918000) (buffer-file-coding-system . utf-8-unix) (overwrite-mode))
+  '((mark-ring (302 253 302 301 255 253 1 1 143 1 143 1 143 1 143 44))))
+
+(desktop-create-buffer 208
+  "/home/inifynastic/Documents/Kollege-Stuff/programming/condition-qp/Q4.py"
+  "Q4.py"
+  'python-mode
+  '(eldoc-mode flymake-mode eglot--managed-mode font-lock-mode evil-local-mode corfu-mode display-line-numbers-mode display-fill-column-indicator-mode rainbow-delimiters-mode)
+  535
+  '(59 nil)
+  nil
+  nil
+  '((tab-width . 8) (indent-tabs-mode) (buffer-display-time 27369 33667 247781 289000) (buffer-file-coding-system . utf-8-unix) (overwrite-mode))
+  '((mark-ring (1 89 337))))
+
+(desktop-create-buffer 208
+  "/home/inifynastic/Documents/Kollege-Stuff/programming/condition-qp/Q3.py"
+  "Q3.py"
+  'python-mode
+  '(eldoc-mode flymake-mode eglot--managed-mode rainbow-delimiters-mode display-fill-column-indicator-mode display-line-numbers-mode corfu-mode evil-local-mode font-lock-mode)
+  304
+  '(334 nil)
+  nil
+  nil
+  '((tab-width . 8) (indent-tabs-mode) (buffer-display-time 27369 32972 471339 310000) (buffer-file-coding-system . utf-8-unix) (overwrite-mode))
+  '((mark-ring (271 41 41 41 188 41 1 1 1 130 41 41 41 41))))
+
+(desktop-create-buffer 208
+  "/home/inifynastic/Documents/Kollege-Stuff/programming/condition-qp/Q1.py"
+  "Q1.py"
+  'python-mode
+  '(eldoc-mode flymake-mode eglot--managed-mode font-lock-mode evil-local-mode corfu-mode display-line-numbers-mode display-fill-column-indicator-mode rainbow-delimiters-mode)
+  822
+  '(695 nil)
+  nil
+  nil
+  '((tab-width . 8) (indent-tabs-mode) (buffer-display-time 27369 31383 707263 259000) (buffer-file-coding-system . utf-8-unix) (overwrite-mode))
+  '((mark-ring (63 309 275 205 161 570 505 504 374 310 309 1 57 161 644 822))))
+
+(desktop-create-buffer 208
+  "/home/inifynastic/Documents/work/main2.py"
+  "main2.py"
+  'python-mode
+  '(rainbow-delimiters-mode display-fill-column-indicator-mode display-line-numbers-mode corfu-mode evil-local-mode font-lock-mode flymake-mode eldoc-mode)
+  858
+  '(1 nil)
+  nil
+  nil
+  '((tab-width . 8) (indent-tabs-mode) (buffer-display-time 27369 29093 276581 877000) (buffer-file-coding-system . undecided-unix) (overwrite-mode))
+  '((mark-ring (1 1 1))))
+
+(desktop-create-buffer 208
+  "/home/inifynastic/Documents/work/main.py"
+  "main.py"
+  'python-mode
+  '(font-lock-mode evil-local-mode corfu-mode display-line-numbers-mode display-fill-column-indicator-mode rainbow-delimiters-mode flymake-mode eldoc-mode)
+  296
+  '(195 nil)
+  nil
+  nil
+  '((tab-width . 8) (indent-tabs-mode) (buffer-display-time 27369 28793 830303 168000) (buffer-file-coding-system . utf-8-unix) (overwrite-mode))
+  '((mark-ring (195 195 297 191 1 1 1 1 1 1 1 1 1 1 1 1))))
+
+(desktop-create-buffer 208
+  "/home/inifynastic/Documents/development-zone/flutter-project/inifynity_piano/lib/graphics/modules/controller.dart"
+  "controller.dart"
+  'dart-mode
+  '(flymake-mode auto-revert-mode rainbow-delimiters-mode display-fill-column-indicator-mode display-line-numbers-mode corfu-mode evil-local-mode font-lock-mode)
+  41
+  '(41 nil)
+  nil
+  nil
+  '((tab-width . 2) (indent-tabs-mode) (buffer-display-time 27369 23637 406597 884000) (buffer-file-coding-system . undecided-unix) (overwrite-mode) (fill-column . 80))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  "/home/inifynastic/Documents/development-zone/flutter-project/inifynity_piano/lib/graphics/modules/musis_display.dart"
+  "musis_display.dart"
+  'dart-mode
+  '(flymake-mode auto-revert-mode rainbow-delimiters-mode display-fill-column-indicator-mode display-line-numbers-mode corfu-mode evil-local-mode font-lock-mode)
+  222
+  '(222 nil)
+  nil
+  nil
+  '((tab-width . 2) (indent-tabs-mode) (buffer-display-time 27369 23505 722115 50000) (buffer-file-coding-system . undecided-unix) (overwrite-mode) (fill-column . 80))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  "/home/inifynastic/Documents/development-zone/flutter-project/inifynity_piano/lib/graphics/modules/piano.dart"
+  "piano.dart"
+  'dart-mode
+  '(flymake-mode auto-revert-mode rainbow-delimiters-mode display-fill-column-indicator-mode display-line-numbers-mode corfu-mode evil-local-mode font-lock-mode)
+  38
+  '(2244 nil)
+  nil
+  nil
+  '((tab-width . 2) (indent-tabs-mode) (buffer-display-time 27369 23232 511652 952000) (buffer-file-coding-system . utf-8-unix) (overwrite-mode) (fill-column . 80))
+  '((mark-ring (119 194 194 115 1528 153 137 802 802 1045 1045 1045 1045 1045 1045 1045))))
+
+(desktop-create-buffer 208
+  "/home/inifynastic/Documents/development-zone/flutter-project/inifynity_piano/lib/graphics/mainscreen.dart"
+  "mainscreen.dart"
+  'dart-mode
+  '(flymake-mode evil-local-mode display-fill-column-indicator-mode display-line-numbers-mode corfu-mode font-lock-mode auto-revert-mode rainbow-delimiters-mode)
+  357
+  '(357 nil)
+  nil
+  nil
+  '((tab-width . 2) (indent-tabs-mode) (buffer-display-time 27369 20574 584645 788000) (buffer-file-coding-system . utf-8-unix) (overwrite-mode) (fill-column . 80))
+  '((mark-ring (219 218 270 340 339 326 8 326 326 326 291 1 1 185 42 50))))
+
+(desktop-create-buffer 208
+  "/home/inifynastic/Documents/development-zone/flutter-project/inifynity_piano/lib/main.dart"
+  "main.dart"
+  'dart-mode
+  '(flymake-mode evil-local-mode display-fill-column-indicator-mode display-line-numbers-mode corfu-mode font-lock-mode auto-revert-mode rainbow-delimiters-mode)
+  162
+  '(163 nil)
+  nil
+  nil
+  '((tab-width . 2) (indent-tabs-mode) (buffer-display-time 27369 20574 258783 250000) (buffer-file-coding-system . undecided-unix) (overwrite-mode) (fill-column . 80))
+  '((mark-ring (163 195 197 40 199 199 1 1 1 1 76))))
+
+(desktop-create-buffer 208
+  "/home/inifynastic/Documents/development-zone/flutter-project/inifynity_piano/lib/services/pianocore.dart"
+  "pianocore.dart"
+  'dart-mode
+  '(font-lock-mode evil-local-mode corfu-mode display-line-numbers-mode display-fill-column-indicator-mode flymake-mode rainbow-delimiters-mode auto-revert-mode)
+  1
+  '(1 nil)
+  nil
+  nil
+  '((tab-width . 2) (indent-tabs-mode) (buffer-display-time 27369 20573 36498 226000) (overwrite-mode) (fill-column . 80))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  "/home/inifynastic/Documents/development-zone/flutter-project/inifynity_piano/web/icons/Icon-512.png"
+  "Icon-512.png"
+  'image-mode
+  '(evil-local-mode display-fill-column-indicator-mode display-line-numbers-mode corfu-mode font-lock-mode auto-revert-mode)
+  1
+  '(nil nil)
+  nil
+  nil
+  '((buffer-display-time 27368 51047 751920 548000) (buffer-file-coding-system . no-conversion) (overwrite-mode) (truncate-lines . t))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  "/home/inifynastic/Documents/development-zone/flutter-project/inifynity_piano/web/icons/Icon-192.png"
+  "Icon-192.png"
+  'image-mode
+  '(evil-local-mode display-fill-column-indicator-mode display-line-numbers-mode corfu-mode font-lock-mode auto-revert-mode)
+  1
+  '(nil nil)
+  nil
+  nil
+  '((buffer-display-time 27368 51043 802144 162000) (buffer-file-coding-system . no-conversion) (overwrite-mode) (truncate-lines . t))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  "/home/inifynastic/Documents/development-zone/flutter-project/inifynity_piano/.gitignore"
+  ".gitignore"
+  'fundamental-mode
+  '(evil-local-mode display-fill-column-indicator-mode display-line-numbers-mode corfu-mode font-lock-mode auto-revert-mode)
+  125
+  '(59 nil)
+  nil
+  nil
+  '((buffer-display-time 27368 36094 284309 100000) (buffer-file-coding-system . undecided-unix) (overwrite-mode))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  nil
+  "flutter-project"
+  'dired-mode
+  '(evil-local-mode font-lock-mode display-line-numbers-mode display-fill-column-indicator-mode)
+  240
+  '(241 nil)
+  t
+  '("/home/inifynastic/Documents/development-zone/flutter-project/")
+  '((buffer-display-time 27368 35965 239313 365000) (overwrite-mode))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  "/home/inifynastic/Documents/development-zone/windows-stuff/Inifynity-Macro/engine/handlehotkey.c"
+  "handlehotkey.c"
+  'c-mode
+  '(evil-local-mode auto-revert-mode display-fill-column-indicator-mode display-line-numbers-mode corfu-mode font-lock-mode flymake-mode rainbow-delimiters-mode)
+  1040
+  '(nil nil)
+  nil
+  nil
+  '((indent-tabs-mode . t) (buffer-display-time 27368 34761 97936 726000) (buffer-file-coding-system . undecided-unix) (overwrite-mode))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  "/home/inifynastic/Documents/development-zone/windows-stuff/Inifynity-Macro/engine/handlehotkey.h"
+  "handlehotkey.h"
+  'c-mode
+  '(evil-local-mode auto-revert-mode display-fill-column-indicator-mode display-line-numbers-mode corfu-mode font-lock-mode flymake-mode rainbow-delimiters-mode)
+  1
+  '(nil nil)
+  nil
+  nil
+  '((indent-tabs-mode . t) (buffer-display-time 27368 32583 91359 738000) (buffer-file-coding-system . undecided-unix) (overwrite-mode))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  "/home/inifynastic/Documents/development-zone/windows-stuff/Inifynity-Macro/engine/enginelogs.h"
+  "enginelogs.h"
+  'c-mode
+  '(evil-local-mode auto-revert-mode display-fill-column-indicator-mode display-line-numbers-mode corfu-mode font-lock-mode flymake-mode rainbow-delimiters-mode)
+  1
+  '(nil nil)
+  nil
+  nil
+  '((indent-tabs-mode . t) (buffer-display-time 27368 32582 169957 384000) (buffer-file-coding-system . undecided-unix) (overwrite-mode))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  nil
+  "Documents"
+  'dired-mode
+  '(evil-local-mode display-fill-column-indicator-mode display-line-numbers-mode font-lock-mode)
+  701
+  '(701 nil)
+  t
+  '("/home/inifynastic/Documents/")
+  '((buffer-display-time 27368 31588 928226 840000) (overwrite-mode))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  "/home/inifynastic/Documents/development-zone/flutter-project/inifynity_piano/linux/flutter/generated_plugin_registrant.cc"
+  "generated_plugin_registrant.cc"
+  'c++-mode
+  '(evil-local-mode flymake-mode display-fill-column-indicator-mode display-line-numbers-mode corfu-mode font-lock-mode auto-revert-mode rainbow-delimiters-mode)
+  162
+  '(162 nil)
+  nil
+  nil
+  '((indent-tabs-mode . t) (buffer-display-time 27368 9492 277629 39000) (buffer-file-coding-system . undecided-unix) (overwrite-mode))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  nil
+  "inifynity_piano"
+  'dired-mode
+  '(evil-local-mode display-fill-column-indicator-mode display-line-numbers-mode font-lock-mode)
+  1175
+  '(1176 nil)
+  t
+  '("/home/inifynastic/Documents/development-zone/flutter-project/inifynity_piano/")
+  '((buffer-display-time 27368 9376 805902 622000) (overwrite-mode))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  "/home/inifynastic/Documents/development-zone/flutter-project/inifynity_piano/linux/flutter/generated_plugin_registrant.h"
+  "generated_plugin_registrant.h"
+  'c-mode
+  '(evil-local-mode flymake-mode display-fill-column-indicator-mode display-line-numbers-mode corfu-mode font-lock-mode auto-revert-mode rainbow-delimiters-mode)
+  1
+  '(nil nil)
+  nil
+  nil
+  '((indent-tabs-mode . t) (buffer-display-time 27368 8947 805214 858000) (buffer-file-coding-system . undecided-unix) (overwrite-mode))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  "/home/inifynastic/Documents/development-zone/flutter-project/inifynity_piano/web/favicon.png"
+  "favicon.png"
+  'image-mode
+  '(evil-local-mode display-fill-column-indicator-mode display-line-numbers-mode corfu-mode font-lock-mode auto-revert-mode)
+  1
+  '(nil nil)
+  nil
+  nil
+  '((buffer-display-time 27368 8931 636132 25000) (buffer-file-coding-system . no-conversion) (overwrite-mode) (truncate-lines . t))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  "/home/inifynastic/Documents/development-zone/flutter-project/inifynity_piano/web/icons/Icon-maskable-512.png"
+  "Icon-maskable-512.png"
+  'image-mode
+  '(evil-local-mode display-fill-column-indicator-mode display-line-numbers-mode corfu-mode font-lock-mode auto-revert-mode)
+  1
+  '(nil nil)
+  nil
+  nil
+  '((buffer-display-time 27369 41516 422182 615000) (buffer-file-coding-system . no-conversion) (overwrite-mode) (truncate-lines . t))
+  '((mark-ring nil)))
+

@@ -1,0 +1,1 @@
+("~/Documents/development-zone/flutter-project/inifynity_piano/" "~/Documents/development-zone/windows-stuff/Inifynity-Macro/" "~/Documents/work/" "~/Documents/development-zone/flutter-project/Inifynity-Piano/")
