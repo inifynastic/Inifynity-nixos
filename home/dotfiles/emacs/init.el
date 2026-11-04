@@ -14,7 +14,9 @@
 (load (expand-file-name "configs/launcher.el"
                         user-emacs-directory))
 
-
+;; Emacs generated file
+(load(expand-file-name "configs/genfiles.el"
+		       user-emacs-directory))
 ;; Platform-specific configuration
 (cond
  ((eq system-type 'gnu/linux)
