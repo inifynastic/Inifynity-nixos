@@ -22,6 +22,7 @@
 		noto-fonts-color-emoji 
 		noto-fonts-emoji-blob-bin 
 		noto-fonts-monochrome-emoji
-		nerd-fonts.jetbrains-mono 
+		nerd-fonts.jetbrains-mono
+		nerd-fonts.symbols-only 
 	];
 }
