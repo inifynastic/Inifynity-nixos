@@ -19,6 +19,7 @@
 	pyright
 	ruby-lsp
 	bash-language-server	
+	qt6.qtdeclarative		
 	nil 
 
 	
