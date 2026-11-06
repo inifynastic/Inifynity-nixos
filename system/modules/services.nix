@@ -3,7 +3,7 @@
 {
   	services = {
       gnome.gnome-keyring.enable = true;
-
+      upower.enable = true;
       power-profiles-daemon.enable = true;
       
       flatpak ={
