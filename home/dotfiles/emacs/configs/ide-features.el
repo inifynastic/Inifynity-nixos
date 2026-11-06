@@ -51,7 +51,7 @@
 
 (with-eval-after-load 'eglot
   (add-to-list 'eglot-server-programs
-               '(qml-ts-mode . ("qmlls" "-E"))))
+               '(qml-ts-mode . ("qmlls"))))
 
 (with-eval-after-load 'treesit
   (add-to-list 'treesit-language-source-alist
