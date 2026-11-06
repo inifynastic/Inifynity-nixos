@@ -15,44 +15,124 @@ The goal of this repository is to keep my entire system reproducible, declarativ
 * Reproducible development environments
 * NVIDIA GPU configuration
 * Custom desktop setup
+* Configured emacs
 
 ## Repository Structure
 
 ```text
-.
-├── flake.nix
+/etc/nixos
+├── development
+│   └── default.nix
 ├── flake.lock
-│
-├── system/
-│   ├── configuration.nix
-│   └── modules/
-│       ├── audio.nix
-│       ├── bluetooth.nix
-│       ├── boot.nix
-│       ├── desktop.nix
-│       ├── networking.nix
-│       ├── nvidia.nix
-│       ├── security.nix
-│       ├── services.nix
-│       └── users.nix
-│
-└── home/
-    ├── default.nix
-    ├── modules/
-    │   ├── dotfiles.nix
-    │   ├── homePackages.nix
-    │   ├── misc.nix
-    │   └── session.nix
-    │
-    ├── dotfiles/
-    │   ├── niri/
-    │   ├── waybar/
-    │   ├── alacritty/
-    │   ├── fuzzel/
-    │   └── others...
-    │
-    └── resources/
-        └── wallpapers/
+├── flake.nix
+├── home
+│   ├── default.nix
+│   ├── dotfiles
+│   │   ├── alacritty
+│   │   │   └── alacritty.toml
+│   │   ├── btop
+│   │   │   ├── btop.conf
+│   │   │   └── themes
+│   │   ├── cava
+│   │   │   ├── config
+│   │   │   ├── shaders
+│   │   │   │   ├── bar_spectrum.frag
+│   │   │   │   ├── eye_of_phi.frag
+│   │   │   │   ├── northern_lights.frag
+│   │   │   │   ├── pass_through.vert
+│   │   │   │   ├── spectrogram.frag
+│   │   │   │   └── winamp_line_style_spectrum.frag
+│   │   │   └── themes
+│   │   │       ├── solarized_dark
+│   │   │       └── tricolor
+│   │   ├── emacs
+│   │   │   ├── configs
+│   │   │   │   ├── appearance.el
+│   │   │   │   ├── core.el
+│   │   │   │   ├── genfiles.el
+│   │   │   │   ├── ide-features.el
+│   │   │   │   ├── launcher.el
+│   │   │   │   └── platforms
+│   │   │   │       ├── linux.el
+│   │   │   │       └── windows.el
+│   │   │   └── init.el
+│   │   ├── fastfetch
+│   │   │   └── config.jsonc
+│   │   ├── fish
+│   │   │   ├── completions
+│   │   │   ├── conf.d
+│   │   │   │   └── fish_frozen_key_bindings.fish
+│   │   │   ├── config.fish
+│   │   │   ├── fish_variables
+│   │   │   └── functions
+│   │   ├── fuzzel
+│   │   │   └── fuzzel.ini
+│   │   ├── mako
+│   │   │   └── config
+│   │   ├── niri
+│   │   │   ├── binds.kdl
+│   │   │   ├── config.kdl
+│   │   │   ├── input.kdl
+│   │   │   ├── layout.kdl
+│   │   │   ├── misc.kdl
+│   │   │   ├── output.kdl
+│   │   │   └── rules.kdl
+│   │   ├── swaylock
+│   │   │   └── config
+│   │   ├── waybar
+│   │   │   ├── config.jsonc
+│   │   │   ├── scripts
+│   │   │   │   └── launch.sh
+│   │   │   └── style.css
+│   │   └── wlogout
+│   │       ├── colors.css
+│   │       ├── icons
+│   │       │   ├── hibernate.png
+│   │       │   ├── lock.png
+│   │       │   ├── logout.png
+│   │       │   ├── reboot.png
+│   │       │   ├── shutdown.png
+│   │       │   └── suspend.png
+│   │       ├── layout
+│   │       ├── noise.png
+│   │       ├── style.css
+│   │       └── themes
+│   │           ├── glass
+│   │           │   └── style.css
+│   │           ├── modern
+│   │           │   └── style.css
+│   │           └── transparent
+│   │               └── style.css
+│   ├── modules
+│   │   ├── dotfiles.nix
+│   │   ├── homePackages.nix
+│   │   ├── misc.nix
+│   │   └── session.nix
+│   ├── resources
+│   │   └── wallpapers
+│   │       ├── wallpaper1.jpg
+│   │       ├── wallpaper2.jpg
+│   │       ├── wallpaper3.jpg
+│   │       └── wallpaper4.jpg
+│   └── scripts
+├── README.md
+└── system
+    ├── configuration.nix
+    ├── hardware-configuration.nix
+    └── modules
+        ├── audio.nix
+        ├── bluetooth.nix
+        ├── boot.nix
+        ├── desktop.nix
+        ├── globalPackages.nix
+        ├── homeManager.nix
+        ├── misc.nix
+        ├── networking.nix
+        ├── nixSettings.nix
+        ├── nvidia.nix
+        ├── security.nix
+        ├── services.nix
+        └── users.nix
 ```
 
 ## Rebuilding
