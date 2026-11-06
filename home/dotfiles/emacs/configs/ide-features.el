@@ -43,6 +43,19 @@
   (add-to-list 'eglot-server-programs
                '(dart-mode . ("dart" "language-server" "--protocol=lsp"))))
 
+;; QML
+(use-package qml-ts-mode
+  :vc (:url "https://github.com/xhcoding/qml-ts-mode" :rev :newest)
+  :mode "\\.qml\\'"
+  :hook (qml-ts-mode . eglot-ensure))
+
+(with-eval-after-load 'eglot
+  (add-to-list 'eglot-server-programs
+               '(qml-ts-mode . ("qmlls" "-E"))))
+
+(with-eval-after-load 'treesit
+  (add-to-list 'treesit-language-source-alist
+               '(qmljs "https://github.com/yuja/tree-sitter-qmljs")))
 
 ;; Treemacs
 (use-package treemacs
@@ -67,6 +80,7 @@
   ("C-c p" . projectile-command-map))
 
 
+
 ;; Completion
 (use-package corfu
   :custom
@@ -83,5 +97,3 @@
   (vertico-mode))
 
 
-;; Git
-(use-package magit)

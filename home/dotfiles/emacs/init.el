@@ -1,31 +1,25 @@
-;; Core Emacs configuration
-(load (expand-file-name "configs/core.el"
-                        user-emacs-directory))
 
-;; IDE features
-(load (expand-file-name "configs/ide-features.el"
-                        user-emacs-directory))
+(defvar my/config-dir user-emacs-directory
+  "Directory holding my own config files (~/.config/emacs/).")
 
-;; Appearance
-(load (expand-file-name "configs/appearance.el"
-                        user-emacs-directory))
+(defun my/load-config (relative-path)
+  "Load RELATIVE-PATH from `my/config-dir'."
+  (load (expand-file-name relative-path my/config-dir)))
 
-;; Application launcher
-(load (expand-file-name "configs/launcher.el"
-                        user-emacs-directory))
+(my/load-config "configs/genfiles.el")
 
-;; Emacs generated file
-(load(expand-file-name "configs/genfiles.el"
-		       user-emacs-directory))
+(my/load-config "configs/core.el")
+(my/load-config "configs/ide-features.el")
+(my/load-config "configs/appearance.el")
+(my/load-config "configs/launcher.el")
+
 ;; Platform-specific configuration
 (cond
  ((eq system-type 'gnu/linux)
-  (load (expand-file-name "configs/platforms/linux.el"
-                          user-emacs-directory)))
-
+  (my/load-config "configs/platforms/linux.el"))
  ((eq system-type 'windows-nt)
-  (load (expand-file-name "configs/platforms/windows.el"
-                          user-emacs-directory))))
+  (my/load-config "configs/platforms/windows.el")))
+
 (custom-set-variables
  ;; custom-set-variables was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
