@@ -25,7 +25,7 @@
 	
 	# IDE / Text Editors
 	qt6Packages.qttools	
-	vscode
+	# vscode Temporary since the package is proken
 	emacs-pgtk
 	geany
 	neovim
