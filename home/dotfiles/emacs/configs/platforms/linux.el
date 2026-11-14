@@ -1,0 +1,1 @@
+(my/load-config "configs/genfiles.el")
